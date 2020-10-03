@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.716579">
+<testcase classname="To Complete the SDET Assignment of elearning website, login, Validation and logout" name="Login with Valid Credentials" time="38.716579">
+<system-out><![CDATA[Given User wants to login to elearning......................................passed
+When User enters the valid credentials Username & Password and hit login button.passed
+Then User Logged in and by default application will land on MyCourses Screen.passed
+]]></system-out>
+</testcase>
+</testsuite>

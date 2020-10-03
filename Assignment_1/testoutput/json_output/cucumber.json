@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6070730100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.beforetest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "to-complete-the-sdet-assignment-of-elearning-website,-login,-validation-and-logout;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2116933000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12922250200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to login to elearning",
+            "match": {
+              "location": "steps.user_wants_to_login_to_elearning()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17521885800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the valid credentials Username \u0026 Password and hit login button",
+            "match": {
+              "location": "steps.user_enters_the_valid_credentials_Username_Password_and_hit_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84780100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Logged in and by default application will land on MyCourses Screen",
+            "match": {
+              "location": "steps.user_Logged_in_and_by_default_application_will_land_on_MyCourses_Screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Landingpagevalidation"
+          }
+        ]
+      }
+    ],
+    "name": "To Complete the SDET Assignment of elearning website, login, Validation and logout",
+    "description": "",
+    "id": "to-complete-the-sdet-assignment-of-elearning-website,-login,-validation-and-logout",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/elearning.feature"
+  }
+]
