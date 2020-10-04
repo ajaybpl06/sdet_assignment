@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6070730100,
+  "duration": 6363878700,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "steps.user_wants_to_login_to_elearning()"
 });
 formatter.result({
-  "duration": 12922250200,
+  "duration": 9698890600,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.user_enters_the_valid_credentials_Username_Password_and_hit_login_button()"
 });
 formatter.result({
-  "duration": 17521885800,
+  "duration": 11616279200,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.user_Logged_in_and_by_default_application_will_land_on_MyCourses_Screen()"
 });
 formatter.result({
-  "duration": 84780100,
+  "duration": 64447600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2116933000,
+  "duration": 1437726800,
   "status": "passed"
 });
 });
